@@ -19,7 +19,7 @@ public class Lab3 {
             for (int i = 1; i <= userInput; i++) {
                 int squared = (int) Math.pow(i, 2);
                 int cubed = (int) Math.pow(i, 3);
-                //System.out.println(String.format("%-5d %8d %13d %2d ", i, squared, cubed));
+                
                 String format = "%-12s %-13s %-1s";
                 System.out.println(String.format(format, i, squared, cubed));
             }
